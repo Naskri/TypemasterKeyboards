@@ -1,3 +1,19 @@
+:root {
+  --color-neutral: #ffffff;
+  --color-primary: #e8eff2;
+  --color-secondary: #f16718;
+  --color-headings: #162542;
+  --color-text: #7b8bad;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  font-family: "Barlow", sans-serif;
 }
